@@ -4,7 +4,7 @@ import { Router } from './router/Router';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/mini-apps">
       <Router />
     </BrowserRouter>
   );
