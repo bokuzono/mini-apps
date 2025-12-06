@@ -1,5 +1,9 @@
 import { memo } from "react";
 
 export const Home = memo(() => {
-    return <p>Home</p>
+    return (
+    <>
+        <p>Home</p>
+    </>
+    )
 });

@@ -1,4 +1,4 @@
-import { memo, useState } from "react";
+import { memo } from "react";
 import { usePhoto } from "../../hooks/usePhoto";
 
 export const RandomPhoto = memo(() => {
